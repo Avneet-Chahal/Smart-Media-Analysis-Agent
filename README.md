@@ -1,4 +1,4 @@
-# Smart Media Analysis Agent
+# 🤖 Smart Media Analysis Agent
 
 > **AI-Powered Multimodal Educational Content Intelligence Platform**
 
@@ -8,7 +8,7 @@ The system combines **multimodal content processing, speech-to-text, Retrieval-A
 
 ---
 
-# 1. Problem Statement
+## 🎯 1. Problem Statement
 
 Students learn from different types of educational resources such as lecture notes, PDFs, audio recordings, and videos.
 
@@ -16,18 +16,18 @@ Finding specific information inside these resources, understanding long lectures
 
 The Smart Media Analysis Agent provides a unified AI-powered workspace where students can upload educational content and interact with it through:
 
-- AI-powered questions and answers
-- Content search
-- Study notes
-- Practice quizzes
-- Audio and video transcripts
-- Timestamp-based navigation
-- Conversation history
-- Source-grounded responses
+- 💬 AI-powered questions and answers
+- 🔎 Content search
+- 📝 Study notes
+- 🧠 Practice quizzes
+- 🎧 Audio and video transcripts
+- ⏱️ Timestamp-based navigation
+- 💭 Conversation history
+- 📚 Source-grounded responses
 
 ---
 
-# 2. Proposed Solution
+## 💡 2. Proposed Solution
 
 The Smart Media Analysis Agent processes educational content from multiple media formats and converts it into searchable and understandable information.
 
@@ -59,7 +59,7 @@ Microsoft Foundry Agent
 Grounded AI Response
    ↓
 Chat / Notes / Quiz / Citations
-3. Objectives
+🎯 3. Objectives
 
 The main objectives of the project are:
 
@@ -74,15 +74,15 @@ Generate practice quizzes automatically.
 Support conversation-aware follow-up questions.
 Provide source information for generated responses.
 Demonstrate AI-103 concepts through a working prototype.
-4. Key Features
-4.1 Multimodal Content Upload
+✨ 4. Key Features
+4.1 📚 Multimodal Content Upload
 
 The platform supports:
 
-PDF documents
-Audio files
-Video files
-4.2 PDF Analysis
+📄 PDF documents
+🎧 Audio files
+🎥 Video files
+4.2 📄 PDF Analysis
 Upload PDF
    ↓
 Text Extraction
@@ -94,7 +94,7 @@ Chunking
 Searchable Content
    ↓
 AI Analysis
-4.3 Audio Analysis
+4.3 🎧 Audio Analysis
 Upload Audio
    ↓
 Azure Speech Transcription
@@ -106,7 +106,7 @@ Content Chunking
 Searchable Content
    ↓
 AI Analysis
-4.4 Video Analysis
+4.4 🎥 Video Analysis
 Upload Video
    ↓
 FFmpeg Audio Extraction
@@ -121,12 +121,11 @@ AI Analysis
 
 The video transcript contains timestamps that allow users to navigate directly to the corresponding position in the video.
 
-4.5 AI Agent Chat
+4.5 🤖 AI Agent Chat
 
 Students can ask questions about their uploaded educational material.
 
-Example:
-
+Example
 User:
 What is polymorphism?
 
@@ -136,8 +135,7 @@ educational material.
 
 The agent also supports follow-up questions using conversation history.
 
-Example:
-
+Follow-up Example
 User:
 What is the first concept explained in the video?
 
@@ -150,7 +148,7 @@ Can you explain that concept in more detail?
 Agent:
 Understands the previous context and provides
 a relevant explanation.
-4.6 Retrieval-Augmented Generation
+4.6 🔎 Retrieval-Augmented Generation
 
 The system uses RAG to retrieve relevant educational content before generating an answer.
 
@@ -170,7 +168,7 @@ Grounded Response
 
 This helps the system answer questions using the uploaded learning material instead of relying only on general model knowledge.
 
-4.7 Study Notes
+4.7 📝 Study Notes
 
 The system can generate structured study notes from uploaded educational content.
 
@@ -182,7 +180,7 @@ Main points
 Important definitions
 Relevant timestamps
 Source information
-4.8 Practice Quiz
+4.8 🧠 Practice Quiz
 
 The system can generate practice questions from uploaded educational material.
 
@@ -193,7 +191,7 @@ Different difficulty levels
 Answer options
 Correct answers
 Educational context
-4.9 Conversation History
+4.9 💭 Conversation History
 
 The application stores previous conversations so students can review their interactions with the AI agent.
 
@@ -206,7 +204,7 @@ Conversation Stored
 History Panel
       ↓
 Review Previous Discussion
-4.10 Source Grounding
+4.10 📚 Source Grounding
 
 The system keeps AI responses connected to retrieved educational content.
 
@@ -216,7 +214,7 @@ Source filename
 Page number
 Timestamp
 Relevant content snippet
-5. System Architecture
+🏗️ 5. System Architecture
                          ┌──────────────────────┐
                          │      Student         │
                          └──────────┬───────────┘
@@ -254,7 +252,7 @@ Relevant content snippet
                          │   Grounded AI        │
                          │      Response        │
                          └──────────────────────┘
-6. Data Flow
+🔄 6. Data Flow
                     ┌──────────────────┐
                     │ Student Upload   │
                     └────────┬─────────┘
@@ -290,7 +288,7 @@ Relevant content snippet
                     ┌──────────────────┐
                     │ AI Response      │
                     └──────────────────┘
-7. Technology Stack
+🛠️ 7. Technology Stack
 Frontend
 React.js
 Vite
@@ -302,7 +300,7 @@ Python
 FastAPI
 REST APIs
 Pydantic
-AI and Cloud Services
+AI & Cloud Services
 Microsoft Foundry
 Azure AI Search
 Azure Speech
@@ -319,7 +317,7 @@ Git
 GitHub
 VS Code / Antigravity
 Postman
-8. AI Services and Their Roles
+☁️ 8. AI Services and Their Roles
 Service	Role
 Microsoft Foundry	AI Agent and grounded response generation
 Azure AI Search	Educational content retrieval
@@ -327,11 +325,11 @@ Azure Speech	Audio and video transcription
 GPT Model	Natural language understanding and generation
 FFmpeg	Video audio extraction
 RAG Pipeline	Retrieves relevant context before generation
-9. AI-103 Concepts Applied
+🧠 9. AI-103 Concepts Applied
 
 The project demonstrates several concepts covered in AI-103:
 
-Generative AI
+✨ Generative AI
 
 Used to generate:
 
@@ -339,38 +337,38 @@ Answers
 Study notes
 Quiz questions
 Educational explanations
-Multimodal AI
+🎥 Multimodal AI
 
 The system works with:
 
 Documents
 Audio
 Video
-Retrieval-Augmented Generation
+🔎 Retrieval-Augmented Generation
 
 Relevant educational content is retrieved before generating responses.
 
-Embeddings and Search
+🧩 Embeddings and Search
 
 Educational content is converted into searchable representations and retrieved based on user queries.
 
-AI Agents
+🤖 AI Agents
 
 Microsoft Foundry is used to provide an agent-based interaction layer.
 
-Prompt Engineering
+📝 Prompt Engineering
 
 Structured prompts are used to control the agent's behavior and grounding requirements.
 
-Speech-to-Text
+🎙️ Speech-to-Text
 
 Azure Speech converts audio and video speech into text.
 
-Responsible AI
+🔐 Responsible AI
 
 The system focuses on grounded responses, source awareness, security, and human verification.
 
-10. Project Structure
+📁 10. Project Structure
 Smart-Media-Analysis-Agent/
 │
 ├── backend/
@@ -415,11 +413,11 @@ Smart-Media-Analysis-Agent/
 ├── .env.example
 ├── .gitignore
 └── test_foundry_connection.py
-11. Installation and Setup
+⚙️ 11. Installation and Setup
 Clone the Repository
 git clone https://github.com/Avneet-Chahal/Smart-Media-Analysis-Agent.git
 cd Smart-Media-Analysis-Agent
-12. Backend Setup
+🐍 12. Backend Setup
 
 Create a Python virtual environment:
 
@@ -432,7 +430,7 @@ backend\venv\Scripts\Activate.ps1
 Install Python dependencies:
 
 pip install -r requirements.txt
-13. Frontend Setup
+⚛️ 13. Frontend Setup
 
 Move into the frontend directory:
 
@@ -441,7 +439,7 @@ cd frontend
 Install dependencies:
 
 npm install
-14. Environment Configuration
+🔐 14. Environment Configuration
 
 Create a .env file in the project root.
 
@@ -463,9 +461,9 @@ AZURE_SEARCH_INDEX_NAME=
 AZURE_SPEECH_KEY=
 AZURE_SPEECH_REGION=
 
-Important: Never upload .env, API keys, passwords, or other secrets to GitHub.
+⚠️ Important: Never upload .env, API keys, passwords, or other secrets to GitHub.
 
-15. Running the Backend
+🚀 15. Running the Backend
 
 From the project root:
 
@@ -474,7 +472,7 @@ uvicorn backend.main:app --reload --port 8001
 Backend will run at:
 
 http://127.0.0.1:8001
-16. Running the Frontend
+🌐 16. Running the Frontend
 
 Open another terminal:
 
@@ -484,12 +482,13 @@ npm run dev
 Frontend will run at:
 
 http://localhost:5173
-17. Running the Complete Application
+🔗 17. Running the Complete Application
 Terminal 1
     ↓
 FastAPI Backend
     ↓
 http://127.0.0.1:8001
+
 
 Terminal 2
     ↓
@@ -499,11 +498,11 @@ http://localhost:5173
 
 Open the frontend URL in the browser to access the application.
 
-18. Testing
+🧪 18. Testing
 
 The prototype was tested across the major application workflows.
 
-PDF Testing
+📄 PDF Testing
 Upload PDF
    ↓
 PDF Processing
@@ -515,7 +514,7 @@ Content Retrieval
 Ask AI Question
    ↓
 Grounded Response
-Audio Testing
+🎧 Audio Testing
 Upload Audio
    ↓
 Azure Speech
@@ -525,7 +524,7 @@ Speech Transcription
 Timestamped Transcript
    ↓
 AI Analysis
-Video Testing
+🎥 Video Testing
 Upload Video
    ↓
 FFmpeg Audio Extraction
@@ -537,7 +536,7 @@ Timestamped Transcript
 Searchable Content
    ↓
 AI Analysis
-Agent Chat Testing
+🤖 Agent Chat Testing
 
 Tested:
 
@@ -546,11 +545,11 @@ Follow-up questions
 Context-aware conversations
 Document-grounded responses
 Source information
-Study Notes Testing
+📝 Study Notes Testing
 
 Tested generation of study notes from uploaded educational material.
 
-Quiz Testing
+🧠 Quiz Testing
 
 Tested:
 
@@ -558,36 +557,36 @@ Quiz generation
 Multiple-choice questions
 Difficulty selection
 Correct answer generation
-History Testing
+💭 History Testing
 
 Tested:
 
 Conversation storage
 History retrieval
 Previous conversation display
-19. Testing Results
+📊 19. Testing Results
 
 The major functional modules were successfully tested:
 
 Feature	Status
-PDF Upload	✅ Working
-PDF Content Analysis	✅ Working
-Audio Upload	✅ Working
-Audio Transcription	✅ Working
-Audio Timestamps	✅ Working
-Video Upload	✅ Working
-FFmpeg Processing	✅ Working
-Video Transcription	✅ Working
-Video Timestamps	✅ Working
-AI Agent Chat	✅ Working
-Follow-up Questions	✅ Working
-RAG Retrieval	✅ Working
-Study Notes	✅ Working
-Quiz Generation	✅ Working
-Conversation History	✅ Working
-Azure AI Search	✅ Working
-Microsoft Foundry	✅ Working
-20. Example Workflow
+📄 PDF Upload	✅ Working
+📄 PDF Content Analysis	✅ Working
+🎧 Audio Upload	✅ Working
+🎙️ Audio Transcription	✅ Working
+⏱️ Audio Timestamps	✅ Working
+🎥 Video Upload	✅ Working
+⚙️ FFmpeg Processing	✅ Working
+🎙️ Video Transcription	✅ Working
+⏱️ Video Timestamps	✅ Working
+🤖 AI Agent Chat	✅ Working
+💬 Follow-up Questions	✅ Working
+🔎 RAG Retrieval	✅ Working
+📝 Study Notes	✅ Working
+🧠 Quiz Generation	✅ Working
+💭 Conversation History	✅ Working
+☁️ Azure AI Search	✅ Working
+🤖 Microsoft Foundry	✅ Working
+🔄 20. Example Workflow
 
 A typical student workflow looks like:
 
@@ -610,42 +609,42 @@ Student Receives Grounded Answer
 Student Generates Notes / Quiz
           ↓
 Conversation Saved in History
-21. Responsible AI
+🔐 21. Responsible AI
 
 The project considers the following responsible AI principles:
 
-Grounding
+🎯 Grounding
 
 Responses are generated using retrieved educational content whenever available.
 
-Transparency
+🔎 Transparency
 
 The application provides source information for retrieved content where available.
 
-Reliability
+🛡️ Reliability
 
 The system is designed to reduce unsupported responses by using retrieval before generation.
 
-Human Oversight
+👤 Human Oversight
 
 AI-generated notes, explanations, and quizzes should be reviewed by students before being treated as authoritative study material.
 
-Security
+🔒 Security
 
 Secrets and credentials are stored in environment variables and excluded from version control.
 
-Privacy
+🗂️ Privacy
 
 Uploaded educational content is processed for the purpose of providing the requested learning functionality.
 
-22. Known Limitations
+⚠️ 22. Known Limitations
 Speech transcription quality depends on audio quality.
 Background noise may affect transcription accuracy.
 Very large media files may require additional processing time.
 AI-generated notes and quizzes may require human verification.
 The current prototype is primarily designed for educational content.
 The current prototype is optimized for demonstration and proof-of-concept usage.
-23. Future Improvements
+🚀 23. Future Improvements
 
 Future versions of the Smart Media Analysis Agent can include:
 
@@ -661,26 +660,26 @@ Cloud-based media storage
 User authentication and role-based access
 Scalable production deployment
 Advanced monitoring and analytics
-24. Screenshots
+📸 24. Screenshots
 
-The project presentation/documentation can include screenshots of:
+The project presentation and documentation can include screenshots of:
 
-1. Landing Page
-2. Sign In / Sign Up
-3. Dashboard
-4. Upload Learning Material
-5. PDF Analysis
-6. Audio Transcription
-7. Video Transcription
-8. AI Agent Chat
-9. Study Notes
-10. Practice Quiz
-11. Conversation History
+🏠 Landing Page
+🔐 Sign In / Sign Up
+📊 Dashboard
+📤 Upload Learning Material
+📄 PDF Analysis
+🎧 Audio Transcription
+🎥 Video Transcription
+🤖 AI Agent Chat
+📝 Study Notes
+🧠 Practice Quiz
+💭 Conversation History
 
 Screenshots can be added to this section using:
 
 ![Dashboard](docs/screenshots/dashboard.png)
-25. Demo Video
+🎥 25. Demo Video
 
 The project demonstration video covers:
 
@@ -692,11 +691,11 @@ The project demonstration video covers:
 
 The video demonstrates the working prototype and its major AI capabilities.
 
-26. GitHub Repository
+🔗 26. GitHub Repository
 
 Source code and documentation:
 
-https://github.com/Avneet-Chahal/Smart-Media-Analysis-Agent
+👉 Smart Media Analysis Agent – GitHub
 
 The repository contains:
 
@@ -708,7 +707,7 @@ Media processing
 Tests
 Documentation
 Environment template
-27. Third-Party Acknowledgements
+🙏 27. Third-Party Acknowledgements
 
 This project uses the following technologies and services:
 
@@ -726,7 +725,7 @@ Axios
 
 These technologies are used according to their respective documentation, licenses, and service terms.
 
-28. Project Status
+✅ 28. Project Status
 PROJECT STATUS
 ────────────────────────────────────
 Prototype / Proof of Concept
@@ -745,7 +744,7 @@ Testing                 ✅
 Documentation           ✅
 GitHub Repository       ✅
 ────────────────────────────────────
-29. Project Deliverables
+📦 29. Project Deliverables
 
 The project deliverables include:
 
@@ -760,11 +759,13 @@ Responsible AI documentation
 Known limitations
 Future improvement plan
 Demonstration video
-30. Conclusion
+
+
+🎓 30. Conclusion
 
 The Smart Media Analysis Agent demonstrates how modern AI technologies can be combined to create an intelligent educational assistant.
 
-By integrating multimodal content processing, speech transcription, retrieval-augmented generation, Azure AI Search, and Microsoft Foundry, the system transforms static educational material into an interactive learning experience.
+By integrating multimodal content processing, speech transcription, Retrieval-Augmented Generation, Azure AI Search, and Microsoft Foundry, the system transforms static educational material into an interactive learning experience.
 
 Educational Content
         ↓
