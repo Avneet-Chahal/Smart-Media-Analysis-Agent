@@ -618,8 +618,6 @@ AZURE_SPEECH_KEY=
 AZURE_SPEECH_REGION=
 ```
 
-> ⚠️ **Important:** Never upload `.env`, API keys, passwords, or other secrets to GitHub.
-
 ---
 
 # 🚀 15. Running the Backend
